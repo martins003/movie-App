@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 40px;
+  background-color: ghostwhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.card{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  background-color: #31363f;
+  border-radius: 10px;
+  min-height: 100px;
+}
+button{
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+h2{
+  color: white;
+}
